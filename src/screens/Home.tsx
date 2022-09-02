@@ -14,6 +14,7 @@ export const HomeScreen = () => {
 
 const defaultStyles = StyleSheet.create({
   container: {
+    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -27,7 +28,6 @@ const styles = {
   light: StyleSheet.create({
     container: {
       ...defaultStyles.container,
-      flex: 1,
       backgroundColor: '#fff',
     },
     text: {
@@ -39,7 +39,6 @@ const styles = {
   dark: StyleSheet.create({
     container: {
       ...defaultStyles.container,
-      flex: 1,
       backgroundColor: '#20232A',
     },
     text: {
